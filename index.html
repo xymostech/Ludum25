@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Evil platformer game</title>
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min.js" type="text/javascript"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.4.2/underscore-min.js" type="text/javascript"></script>
+        <script src="js/cgscenegraph_1.3.0.min.js" type="text/javascript"></script>
+
+        <script src="js/util.js" type="text/javascript"></script>
+
+        <script src="js/line.class.js" type="text/javascript"></script>
+        <script src="js/circle.class.js" type="text/javascript"></script>
+
+        <script src="js/spikes.sprite.js" type="text/javascript"></script>
+        <script src="js/person.sprite.js" type="text/javascript"></script>
+        <script src="js/guard-o-vision.sprite.js" type="text/javascript"></script>
+        <script src="js/exclamation.sprite.js" type="text/javascript"></script>
+
+        <script src="js/player.entity.js" type="text/javascript"></script>
+        <script src="js/platform.entity.js" type="text/javascript"></script>
+        <script src="js/wall.entity.js" type="text/javascript"></script>
+        <script src="js/enemy.entity.js" type="text/javascript"></script>
+        <script src="js/popuptext.entity.js" type="text/javascript"></script>
+        <script src="js/switch.entity.js" type="text/javascript"></script>
+        <script src="js/switch2.entity.js" type="text/javascript"></script>
+        <script src="js/breakableglass.entity.js" type="text/javascript"></script>
+        <script src="js/checkpoint.entity.js" type="text/javascript"></script>
+        <script src="js/door.entity.js" type="text/javascript"></script>
+        <script src="js/textmanager.entity.js" type="text/javascript"></script>
+        <script src="js/textactivator.entity.js" type="text/javascript"></script>
+        <script src="js/spike.entity.js" type="text/javascript"></script>
+        <script src="js/feynman.entity.js" type="text/javascript"></script>
+        <script src="js/desk.entity.js" type="text/javascript"></script>
+        <script src="js/goat.entity.js" type="text/javascript"></script>
+        <script src="js/curie.entity.js" type="text/javascript"></script>
+        <script src="js/fakedoor.entity.js" type="text/javascript"></script>
+        <script src="js/oppenheimer.entity.js" type="text/javascript"></script>
+
+        <script src="js/winner.stage.js" type="text/javascript"></script>
+        <script src="js/test.stage.js" type="text/javascript"></script>
+        <script src="js/tutorial.stage.js" type="text/javascript"></script>
+        <script src="js/feynman.stage.js" type="text/javascript"></script>
+        <script src="js/goat.stage.js" type="text/javascript"></script>
+        <script src="js/mats.stage.js" type="text/javascript"></script>
+        <script src="js/menu1.stage.js" type="text/javascript"></script>
+        <script src="js/menu2.stage.js" type="text/javascript"></script>
+        <script src="js/menu3.stage.js" type="text/javascript"></script>
+
+        <script src="js/main.scene.js" type="text/javascript"></script>
+
+        <script src="js/game.js" type="text/javascript"></script>
+
+        <style type="text/css">
+            body {
+                background-color: #000;
+
+                color: #fff;
+            }
+
+            canvas {
+                background-color: #ddd;
+                border: 2px solid black;
+            }
+
+            .center {
+                width: 800px;
+                margin: 0px auto;
+            }
+
+            .center-text {
+                text-align: center;
+                width: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="center">
+            <div class="center-text">
+                <h1>Let's make a bomb!</h1>
+            </div>
+            <canvas id="canvas" width="800" height="600">
+                Your browser doesn't work with this game :(
+            </canvas>
+            <div class="center-text">
+                Made with HTML5 and CGSceneGraph for Ludum Dare 25
+            </div>
+        </div>
+    </body>
+</html>
